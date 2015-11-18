@@ -29,11 +29,21 @@ body {
     position: relative;   
     top: 10px;
 }
-#section1 {padding-top:50px;height:600px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:600px;color: #fff; background-color: #ff9800;}
-#section4 {padding-top:50px;height:600px;color: #fff; background-color: #00bcd4;}
-#section5 {padding-top:50px;height:600px;color: #fff; background-color: #009688;}
-#section6 {padding-top:50px;height:600px;color: #fff; background-color: #009200;}
-#section7 {padding-top:50px;height:600px;color: #fff; background-color: #004088;}
-#section8 {padding-top:50px;height:600px;color: #fff; background-color: #000008;}
+
+#inicio {padding-top:50px;height:600px;color: #fff; background-color: #1E88E5;}
+#cursos {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;}
+#noticias {padding-top:50px;height:600px;color: #fff; background-color: #ff9800;}
+#fotos {padding-top:50px;height:600px;color: #fff; background-color: #00bcd4;}
+#videos {padding-top:50px;height:600px;color: #fff; background-color: #009688;}
+#contato {padding-top:50px;height:600px;color: #fff; background-color: #009200;}
+#localizacao {padding-top:50px;height:600px;color: #fff; background-color: #004088;}
+ 
+#local h1, #videos h1{
+    color:darkslategray;
+    font-family: 'oswald', sans-serif;
+}
+#local iframe, #videos iframe {
+    border:solid;
+    color:black;
+   
+}
