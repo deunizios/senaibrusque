@@ -9,7 +9,6 @@
         <!-- Javascript -->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/meuscript.js"></script>
 
     </head>
 
@@ -30,9 +29,10 @@
                 </div>
             </form>               
         </header>
+
         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-            <div class="container-fluid"
-                 <div class="navbar-header">
+            <div class="container-fluid">
+                <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -50,16 +50,10 @@
                             <li><a href="#section5">Vídeos</a></li>
                             <li><a href="#section6">Contato</a></li>
                             <li><a href="#section7">Localização</a></li>
-                            <!--menu drop down
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                             <ul class="dropdown-menu">
-                                 <li><a href="#section41">Section 4-1</a></li>
-                                 <li><a href="#section42">Section 4-2</a></li>
-                             </ul>
-                        </li>                            -->
                         </ul>
                     </div>
                 </div>
+            </div>
         </nav>    
         <div id="section1" class="container-fluid">
             <h1>Inicio</h1>
@@ -96,5 +90,6 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
+        <script src="js/meuscript.js"></script>
     </body>
 </html>

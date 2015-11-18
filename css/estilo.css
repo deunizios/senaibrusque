@@ -6,7 +6,6 @@
 #topo{
     background-color: #017338;
     color: whitesmoke;
-    height: 250px;
 }
 body {
     position: relative; 
@@ -14,6 +13,7 @@ body {
 .jumbotrom {
     margin-bottom: 0;
 }
+
 .affix {
     top:0;
     width: 100%;
