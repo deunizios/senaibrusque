@@ -38,7 +38,7 @@
                         </ul>
                         <form role="form">
                             <div>                 
-                                <a class="small">Inscreva-se</a>
+                                <a class="small">Inscreva-se em nossa newsletter:</a>
                                 <div class="input-group input-group-sm">
                                     <input type="email" class="form-control" id="email" placeholder="seunome@seuprovedor.com.br"/>
                                     <span class="input-group-addon">
@@ -54,21 +54,6 @@
         </nav>    
         <div id="inicio" class="container-fluid">
             <h1>Inicio</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        </div>
-        <div id="cursos" class="container-fluid">
-            <h1>Cursos</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        </div>
-        <div id="noticias" class="container-fluid">
-            <h1>Notícias</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        </div>
-        <div id="fotos" class="container-fluid">
-            <h1>Fotos</h1>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -109,6 +94,20 @@
             </div>
 
         </div>
+        <div id="cursos" class="container-fluid">
+            <h1>Cursos</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="noticias" class="container-fluid">
+            <h1>Notícias</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="fotos" class="container-fluid">
+            <h1>Fotos</h1>
+
+        </div>
         <div id="videos" class="container-fluid">
             <div class="text-center">
                 <h1>Galeria de Vídeos</h1>
@@ -117,11 +116,35 @@
         </div>
         <div id="contato" class="container-fluid">
             <h1>Contato</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <div class="row>">
+                <p> Entre em contato, responderemos em até 24 horas.</p>
+                <div class="col-lg-4">
+                    <p><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Brusque</p>
+                    <p><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>+55(47) 3251-8900</p>
+                    <p><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>brusque@fiesc.com.br</p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="cNome">Nome</label>
+                        <input type="text" class="form-control" id="cNome" placeholder="Nome"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="cEmail">E-mail</label>
+                        <input type="text" class="form-control" id="cEmail" placeholder="E-mail"/>
+                    </div>
+                </form>
+                <form class="form-control-static">
+                    <div class="form-group">
+                        <label class="sr-only" for="cMensagem" placeholder="Digite sua mensagem"></label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                </form>
+            </div>
         </div>
         <div id="localizacao" class="container-fluid">
-
             <div class="text-center">
                 <h1>Localização</h1>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113641.274156672!2d-48.98024230037518!3d-27.11568013239441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447821436954" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

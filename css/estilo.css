@@ -38,12 +38,26 @@ body {
 #contato {padding-top:50px;height:600px;color: #fff; background-color: #009200;}
 #localizacao {padding-top:50px;height:600px;color: #fff; background-color: #004088;}
  
-#local h1, #videos h1{
+#local h1, #videos h1, #contato h1{
     color:darkslategray;
     font-family: 'oswald', sans-serif;
 }
 #local iframe, #videos iframe {
     border:solid;
     color:black;
+   }
+   #contato h1 {margin-bottom: 20px;
+   }
    
-}
+   #contato p{
+       color: darkslategrey;
+         font-family:arial;
+   }      
+   h1 {
+       text-align: center;
+   }
+   #contato input, #contato textarea, #contato button {
+       margin: 10px;
+       padding: 10px;
+       
+   }
