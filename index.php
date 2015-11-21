@@ -114,36 +114,7 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/FuTq3I905_A?list=PLD4DD46F345EC95B2" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div id="contato" class="container-fluid">
-            <h1>Contato</h1>
-            <div class="row>">
-                <p> Entre em contato, responderemos em até 24 horas.</p>
-                <div class="col-lg-4">
-                    <p><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Brusque</p>
-                    <p><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>+55(47) 3251-8900</p>
-                    <p><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>brusque@fiesc.com.br</p>
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label class="sr-only" for="cNome">Nome</label>
-                        <input type="text" class="form-control" id="cNome" placeholder="Nome"/>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="cEmail">E-mail</label>
-                        <input type="text" class="form-control" id="cEmail" placeholder="E-mail"/>
-                    </div>
-                </form>
-                <form class="form-control-static">
-                    <div class="form-group">
-                        <label class="sr-only" for="cMensagem" placeholder="Digite sua mensagem"></label>
-                        <textarea class="form-control" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default">Enviar</button>
-                </form>
-            </div>
-        </div>
+        <?php include 'formContato.php'; ?>
         <div id="localizacao" class="container-fluid">
             <div class="text-center">
                 <h1>Localização</h1>

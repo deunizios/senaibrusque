@@ -61,3 +61,7 @@ body {
        padding: 10px;
        
    }
+   /*estilizando o formulario de contato*/
+   #contactForm .h4, #contactForm .h3{
+       color: darkslategrey;
+   }
