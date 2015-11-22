@@ -62,6 +62,6 @@ body {
        
    }
    /*estilizando o formulario de contato*/
-   #contactForm .h4, #contactForm .h3{
+   #contactForm .h4 {
        color: darkslategrey;
    }

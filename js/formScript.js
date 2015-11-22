@@ -3,30 +3,51 @@
  *
  **/
 
-$("#contactForm").submit(function (event) {
-    // cancela o envio padrão
-    event.preventDefault();
-    // Chama uma função que fará o envio do formuário
+$("#contactForm").validator().on("submit", function (event) {
+    if (event.isDefaultPrevented()) {
+        // Formulario inválido
+        formError();
+        submitMSG(false, "Did you fill in the form properly?");
+    } else {
+        // Tudo parece certo!
+        event.preventDefault();
         submitForm();
+    }
 });
 
-function submitForm(){
+function submitForm() {
     // Inicializa variáveis com o conteúdo do formulario
     var name = $("#name").val();
     var email = $("#email").val();
     var message = $("#message").val();
- 
+
     $.ajax({
         type: "POST",
         url: "formProcess.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
-        success : function(text){
-            if (text == "success"){
+        success: function (text) {
+            if (text == "success") {
                 formSuccess();
             }
         }
     });
 }
-function formSuccess(){
-    $( "#msgSubmit" ).removeClass( "hidden" );
+function formSuccess() {
+    $("#contactForm")[0].reset();
+    submitMSG(true, "Mensagem Enviada!")
+}
+
+function submitMSG(valid, msg) {
+    var msgClasses;
+    if (valid) {
+        msgClasses = "h3 text-center slideInUp animated text-success";
+    } else {
+        msgClasses = "h3 text-center text-danger";
+    }
+    $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
+function formError() {
+    $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $(this).removeClass();
+    });
 }
